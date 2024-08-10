@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ril n</title>
+  <link rel="stylesheet" href="nig.css">
+
+</head>
+<body>
+  <section class="slider-container">
+    <div class="slider-images">
+      <div class="slider-img">
+        <img src="kyen/kyen.png" alt="1" class="thumbnail">
+        <img src="kyen/kyeni.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="kyen">KYENIROSE</h1>
+        <div class="details">
+          <h2>KYENI</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="june/junee.png" alt="1" class="thumbnail">
+        <img src="june/juneee.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="ju">JUNE</h1>
+        <div class="details">
+          <h2>JUNE</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="mak/rus.png" alt="1" class="thumbnail">
+        <img src="mak/bini maloii.png" alt="1" class="gif" style="opacity:100%">
+        <h1 class="rus">RUSSEL</h1>
+        <div class="details">
+          <h2>RUSSEL</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="tj/tj.png" alt="1" class="thumbnail">
+        <img src="tj/colett.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="tj">TJAY</h1>
+        <div class="details">
+          <h2>TJAY</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="rus/mak.png" alt="1" class="thumbnail">
+        <img src="rus/bini mikha.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="mak">MARK</h1>
+        <div class="details">
+          <h2>MARK</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="paulo/pau.png" alt="1" class="thumbnail">
+        <img src="paulo/bini sheenaa.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="pau">PAULO</h1>
+        <div class="details">
+          <h2>PAULO</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="lyle/lylee.png" alt="1" class="thumbnail">
+        <img src="lyle/lylegif.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="lyle">LYLE</h1>
+        <div class="details">
+          <h2>LYLE</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="kent/kent.png" alt="1" class="thumbnail">
+        <img src="kent/bini stacey.gif" alt="1" class="gif" style="opacity:100%">
+        <h1 class="kent">KENT</h1>
+        <div class="details">
+          <h2>Kent</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".slider-img").on("click", function () {
+        $(".slider-img").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+    <style>
+      .gif {
+        display: none;
+      }
+      .active .gif {
+        display: block;
+      }
+      .active .thumbnail {
+        display: none;
+      }
+    </style>
+</body>
+</html>
+  
